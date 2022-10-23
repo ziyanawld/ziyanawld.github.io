@@ -1,0 +1,401 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	}
+a {
+		color:#696969;
+		text-decoration: none;
+	}
+body {
+	margin: 0px;
+	padding:0px;
+	font-family:'Acme';
+	background-image: url(https://bit.ly/3CB3H7F);
+	background-color: #FAEBD7;
+}
+.header1 {
+	 	width: 90%;
+	 	margin:0 auto;
+
+	 }
+.header1:after {
+	 	content:'';
+	 	display: block;
+	 	clear: both;
+	 }
+.header1 img {
+  		height: 90px;
+  		width: auto;
+  		padding-left: 40px;
+  		padding: 5px 5px;
+	 	background-color: #b8ffff;
+	 }
+	 header h1 {
+	 	float: left;
+	 	padding: 12px 0;
+	 	color: #196767;
+	 	font-size: 70px;
+	 	font-family: 'PEOPLE BOOK';
+	 	width: 50%;
+	 	background-color: #b8ffff;
+	 }
+	 header ul {
+	 	float: right;
+	 	background-color: #FFFACD;
+	 }
+	 header ul li {
+	 	display: inline-block;
+	 	
+	 }
+	 header ul li a {
+	 	padding:30px 25px;
+	 	display: inline-block;
+	 }
+	 header ul li a:hover {
+	 	background-color: #E0FFFF;
+	 	color:black;
+	 }
+.active {
+	 	background-color: #ccffff;
+	 	color:white;
+	 }
+
+.banner {
+	 	width: 1000px;
+    	margin-top: 5%;
+    	position: absolute;
+    	transform: translate(-50%,-50%);
+    	top: 50%;
+    	left: 50%;
+    	overflow: hidden;
+    	border: 7px solid #EEEBDD;
+    	border-radius: 8px;
+    	box-shadow: 10px 25px 30px rgba(0,0,0,0.3);
+	 }
+.wrapper {
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite;
+}
+.banner img {
+	width: 100%;
+}
+@keyframes slide {
+	0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+
+.leftcolumn {   
+  		float: left;
+  		width: 70%;
+  		margin-left: 30px;
+	  	margin-right: 0px;
+	  	margin-top: 610px;
+	  	text-align: justify;
+  		background-color: #FFF8DC;
+}
+.leftcolumn h2 {
+		text-align: center;
+	 }
+.leftcolumn :after{
+	 	content: "";
+    	display: table;
+    	clear: both;
+    	text-align: center;
+    }
+.rightcolumn {
+  		float: right;
+  		width: 25%;
+  		margin-left: 0px;
+	  	margin-right: 30px;
+	  	margin-top: 610px;
+  		text-align: justify;
+  		background-color: #FFF8DC;
+	 }
+.rightcolumn h2 {
+		text-align: center;
+	 }
+.rightcolumn img {
+		text-align: center;
+	 }
+.card {
+  		background-color: white;
+  		padding: 20px;
+  		margin-top: 20px;
+}
+.rightcolumn2 {
+  		float: right;
+  		width: 25%;
+  		margin-left: 0px;
+	  	margin-right: 30px;
+	  	margin-top: 5px;
+  		text-align: justify;
+  		background-color: #FFF8DC;
+	 }
+.rightcolumn2 h2 {
+		text-align: center;
+	 }
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+.header2 {
+		width: 90%;
+	 	margin:0 auto;
+	 	background-color: #b8ffff;
+	 	border-radius: 8px;
+	 }
+.header2 img {
+  		height: 90px;
+  		width: auto;
+  		padding-left: 450px;
+  		padding-top: 5px;
+	 }
+.header2 header h1 {
+	 	padding-left: 20px;
+	 	font-family: 'Acme';
+	 }
+.header2 header ul {
+	 	float: right;
+	 	margin-right: 80px;
+	 	width: 550px;
+	 }
+.header2 header ul li {
+	 	margin-top: 15px;
+	 	font-weight: bold;
+	 	font-family: 'Acme'
+	 }
+.header2 header ul li a {
+	 	padding:30px 25px;
+	 	display: inline-block;
+	 }
+.header2 header ul li a:hover {
+	 	background-color: #FFDEAD;
+	 	color:black;
+	 }
+.aboutme {
+	 	width: 100%;
+	 	margin: auto;
+	 	position: relative;
+	 	border:1px solid;
+		background-image: url("gambar_background3moana.jpg");	 	
+		background-size: cover;
+	 	position: relative;
+	 }
+.biodata img {
+	 	width: 300px;
+	 	height: auto;
+	 	color:white;
+	 	border-radius: 10px;
+	 	margin-left: 100px;
+	 	margin-bottom: 10px;
+	 	margin-top: 10px;
+	 }
+.biodata ul {
+	 	float: right;
+	 	margin-right: 80px;
+	 	width: 550px;
+	 }
+.biodata ul li {
+	 	margin-top: 30px;
+	 	font-weight: bold;
+	 	font-size: 20px;
+	 	font-family: 'acme'
+	 }
+.biodata {
+	 	margin: 100px;
+	 	margin-top: 80px;
+	 	border-radius: 50px;
+	 	background-color: #E0FFFF;
+	 }
+
+.judul h2 {
+    	font-size: 30px;
+    	color: #ffffcc;
+    	text-align: center;
+    	width: 90%;
+    	height: 100%;
+    	margin-top: 20px;
+    	margin-left: 30px;
+    	margin: auto;
+    	background-color: #8FBBBD;
+	 }
+.tahun {
+		margin: 100px;
+	 	margin-top: 80px;
+	 	margin-right: 30px;
+	 	margin-left: 30px;
+	 	background-color: #ebf5d6;
+	 }
+.isi p {
+	 	position: relative;
+	 	margin-top: 10px;
+	 	margin-left: 30px;
+	 	margin-right: 30px;
+	 	text-align: justify;
+	 	background-color: #ffffcc;
+	 	color:black;
+	 	font-size: 20px;
+	 	font-style: 'acme';
+	 }
+.usaha {
+		margin: 100px;
+	 	margin-top: 80px;
+	 	margin-right: 30px;
+	 	margin-left: 30px;
+	 	background-color: #d6ebe0;
+	}
+.isi2 p {
+	 	position: relative;
+	 	margin-left: 30px;
+	 	margin-right: 30px;
+	 	margin-top: 10px;
+	 	margin-bottom: 15px;
+	 	text-align: justify;
+	 	background-color: #ffffcc;
+	 	color:black;
+	 	font-size: 20px;
+	 	font-style: 'acme';
+	 }
+.isi2 ul {
+	 	position: relative;
+	 	margin-left: 70px;
+	 	margin-right: 30px;
+	 }
+.isi2 ul li {
+	 	margin-top: 15px;
+	 	text-align: justify;
+	 	background-color: #ffffcc;
+	 	color:black;
+	 	font-size: 20px;
+	 	font-family: 'acme'
+	 }
+
+.pencapaian {
+		margin: 100px;
+	 	margin-top: 80px;
+	 	margin-right: 30px;
+	 	margin-left: 30px;
+	 	background-color: #c7e3e8;
+	 }
+.isi3 p {
+	 	position: relative;
+	 	margin-left: 30px;
+	 	margin-right: 30px;
+	 	margin-top: 10px;
+	 	margin-bottom: 15px;
+	 	text-align: justify;
+	 	background-color: #ffffcc;
+	 	color:black;
+	 	font-size: 20px;
+	 	font-style: 'acme';
+	 }
+.isi3 ul {
+	 	float: left;
+	 	margin-left: 70px;
+	 	margin-right: 80px;
+	 	width: 550px;
+	 }
+.isi3 ul li {
+	 	margin-top: 20px;
+	 	background-color: #ffffcc;
+	 	color:black;
+	 	font-size: 20px;
+	 	font-family: 'acme'
+	 }
+.isi3 img {
+	 	height: 555px;
+	 	border-radius: 10px;
+	 	margin-left: 50px;
+	 	margin-right: 35px;
+	 	margin-bottom: 10px;
+	 	margin-top: 10px;
+	 }
+
+#family-friend {
+    	margin: 100px;
+	 	margin-top: 80px;
+	 	margin-bottom: 15px;
+	 	margin-right: 30px;
+	 	margin-left: 30px;
+	 	border-radius: 70px;
+    	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('pict3.jpg');
+	 }
+.judul h2 {
+    	font-size: 30px;
+    	color: #ffffcc;
+    	text-align: center;
+    	width: 90%;
+    	height: 100%;
+    	margin-top: 20px;
+    	margin-left: 30px;
+    	margin: auto;
+    	background-color: #8FBBBD;
+	 }
+.kotak {
+		text-align: center;
+	}
+.kotak:after {
+    	content: "";
+    	display: table;
+    	clear: both;
+    	text-align: center;
+	 }
+.kolom {
+    	float: left;
+    	width: 25%;
+    	padding: 15px;
+    	margin-left: 55px;
+	 }
+.konten {
+    	margin-top: 20px;i
+    	background-image: url(pattern2.jpg);
+	 }
+@media screen and (max-width:600px) {
+.column {
+        width: 100%;
+        text-align: center;
+     }
+.polaroid {
+    	width: 100%;
+    	background-color: white;
+    	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    	margin-bottom: 25px;
+    	margin-left: 30px;
+	 }
+.polaroid1 img {
+	width: 70%;
+	 }
+.nama {
+		text-align: center;
+	 }
+.deskripsi {
+		text-align: justify-all;
+	 }
